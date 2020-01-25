@@ -1,5 +1,5 @@
 {
-  "name": "now-sapper",
+  "name": "@fpaboim/now-sapper",
   "version": "0.38.0",
   "license": "MIT",
   "description": "ZEIT Now 2.0 builder for Sapper with SSR enabled",
@@ -16,7 +16,10 @@
     "@now/node-bridge": "^1.2.5",
     "fs-extra": "^8.1.0"
   },
-  "repository": "https://github.com/thgh/now-sapper",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fpaboim/now-sapper.git"
+  },
   "keywords": [
     "svelte",
     "sapper",
@@ -26,12 +29,16 @@
   ],
   "author": "Thomas Ghysels",
   "bugs": {
-    "url": "https://github.com/thgh/now-sapper/issues"
+    "url": "https://github.com/fpaboim/now-sapper/issues"
   },
-  "homepage": "https://github.com/thgh/now-sapper#readme",
+  "homepage": "https://github.com/fpaboim/now-sapper#readme",
   "prettier": {
     "trailingComma": "none",
     "semi": false,
     "singleQuote": true
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {}
 }
